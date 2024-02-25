@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tour Destination</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: rgba(22, 216, 255, 0.455);
+        }
+        header {
+            text-align: center;
+            color: #0e9cd9;
+            padding: 20px;
+            background-image: url('https://th.bing.com/th/id/R.f75b89c505dd0bdfc698744722222918?rik=1oPB4rYKxiRwVA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2016%2f06%2f10%2f4k-hd-wallpapers_065228558_309.jpg&ehk=GbNNwMhpX%2b7cKij2WgbB0hyr%2fbK%2f4i7XCgjx2ZoZf74%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            border-radius: 2px;
+            width: 100%;
+        }
+        main {
+            background-image: url(https://4kwallpapers.com/images/wallpapers/love-heart-tree-1920x1080-14793.jpg);
+            background-size: cover;
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            background-color: #edf0f284;
+            text-align: center;
+            padding: 20px;
+            position:bottom;
+            bottom: 0;
+            width: 100%;
+            background-image: url('https://4kwallpapers.com/images/walls/thumbs_2t/2732.jpg');
+            background-size: cover;
+            height: 40px;
+        }
+        /* Category grid */
+        #cat {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .category {
+            border-radius: 2%;
+            padding: 20px;
+            box-shadow: 0 0 5px 2px #acf3fb7f;
+            background-size: cover;
+            color: #000;
+            background-image: linear-gradient(45deg, #00a6ff6c, #00ddff5d);
+            transition: transform 0.3s ease-in-out;
+            height: 170px;
+        }
+        .category:hover {
+            transform: scale(1.05);
+        }
+        /* Text styles */
+        h1, h2 {
+            color: #1e90ff;
+            text-shadow: 2px 2px 4px rgba(30, 144, 255, 0.3);
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .categories {
+            color:#000000;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        header nav a {
+            text-decoration: none;
+            color: #fff203;
+            font-family:'Times New Roman', Times, serif ;
+            font-weight: bolder;
+            font-size: small;
+        }
+        header nav ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            justify-content: right;
+            margin-right: 20px;
+            gap: 3px;
+        }
+
+        header nav ul li {
+            margin-right: 1em;
+        }
+        #category1{background-image: url(https://www.adventuretravelcoach.com/wp-content/uploads/2020/06/68AFCE60-6D7A-40C0-BD33-497926A30147.jpeg);background-size: cover;}
+        #category2{background-image: url(https://wallpapercave.com/wp/wp9069748.jpg);background-size: cover;}
+        #category3{background-image: url(https://wallpapercave.com/wp/wp7231656.jpg);background-size: cover;}
+        #category4{background-image: url(https://th.bing.com/th/id/OIP.ZEBR8XJ6evp5nTIc46Zt0gHaEm?rs=1&pid=ImgDetMain);background-size: cover;}
+        #category5{background-image: url(https://wallpaperaccess.com/full/336718.jpg);background-size: cover;}
+        #category6{background-image: url(https://cdn.cdnparenting.com/articles/2019/01/13143643/1104054404-H.jpg);background-size: cover;}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EPIC DESTINY TOURS</h1>
+        <nav>
+          <ul>
+            <li><a href="#hotels">Hotels</a></li>
+            <li><a href="#things-to-do">Things to Do</a></li>
+            <li><a href="#restaurants">Restaurants</a></li>
+            <li><a href="#flights">Flights</a></li>
+            <li><a href="#vacation-rentals">Vacation Rentals</a></li>
+            <li><div class="search-container">
+                <!-- <form action="/search" method="GET">
+                <input type="text" class="search-box" name="q" placeholder="Search...">
+                <button type="submit" class="search-btn">Search</button>
+                </form> -->
+                </div>
+            </li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+        <h2>About Our Destination</h2>
+        <p class="categories">These are various Categories:</p>
+        <div id="cat">
+            <div class="category" id="category1">
+                <h1>Adventures</h1>
+            </div>
+            <div class="category" id="category2">
+                <h1>Weekend</h1>
+            </div>
+            <div class="category" id="category3">
+                <h1>Historical & Cultural Tours</h1>
+            </div>
+            <div class="category" id="category4">
+                <h1>Wildlife Tourism</h1>
+            </div>
+            <div class="category" id="category5">
+                <h1>Rural Tourism</h1>
+            </div>
+            <div class="category" id="category6">
+                <h1>Religious Tourism</h1>
+            </div>
+        </div>
+        <h2>Popular Tours</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod.</p>
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod.</p>
+    </main>
+    <footer>
+        <p>© 2024 Tour Destination. All rights reserved.</p>
+    </footer>
+</body>
+</html>
